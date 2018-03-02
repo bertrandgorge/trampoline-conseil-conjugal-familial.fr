@@ -1,0 +1,39 @@
+// Styling for the masthead
+section.retrouvez {
+  text-align: center;
+  padding: 20px 0;
+  color: $primary;
+  background-image: url('../img/trampoline/middle_bg.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  @include background-cover;
+  .retrouvez-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    .retrouvez-text-heading {
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 30px;
+      color: #faf9f1;
+      @include heading-font;
+    }
+
+  }
+}
+@media(min-width:768px) {
+  section.retrouvez {
+    .retrouvez-text {
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      .retrouvez-text-heading {
+        font-size: 38px;
+        font-weight: 500;
+        line-height: 49px;
+        @include heading-font;
+      }
+    }
+  }
+}

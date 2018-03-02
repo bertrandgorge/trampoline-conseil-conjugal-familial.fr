@@ -1,0 +1,46 @@
+// Styling for the masthead
+section.about {
+  background-color: #93d6d3;
+  text-align: center;
+  padding: 20px 0 0 0;
+  color: $primary;
+  
+  h2 {
+  	color: white;
+  }
+  h3 {
+	font-size: 25px;
+	font-weight: 500;
+	color: white;
+	font-style: normal;
+	margin-bottom: 45px;
+  }  
+  .presentation-text {
+    text-align: left;
+    padding-bottom: 20px;
+    h4 {
+      font-size: 30px;
+      font-weight: 500;
+      margin-bottom: 0;
+      @include serif-font;
+    }
+
+    h5 {
+    	font-size: 16px;
+      	font-weight: 500;
+      	margin-bottom: 0;
+	margin-top: 21px;      
+      	@include serif-font;
+      
+    }
+    
+    p {
+	font-size: 16px;
+	margin-top: 3px;
+	margin-bottom: 6px;
+	line-height: 1;
+	@include serif-font;
+    }
+
+  }
+}

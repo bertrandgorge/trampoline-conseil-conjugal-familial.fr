@@ -1,0 +1,16 @@
+#conseil {
+  background-color: white;
+  padding: 50px 0;
+  h2 {
+  	color: $primary;
+  	font-weight: 500;
+  }
+  
+  p {
+  	margin: 6px 0;
+	font-size: 22px;
+	line-height: 1.2;
+	font-weight: 400;  	
+        @include serif-font;
+  }
+}
