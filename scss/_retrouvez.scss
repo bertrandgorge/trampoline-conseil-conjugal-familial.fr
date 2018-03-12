@@ -20,6 +20,13 @@ section.retrouvez {
       @include heading-font;
     }
 
+    .retrouvez-text-subheading {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      color: #faf9f1;
+      @include heading-font;
+    }
   }
 }
 @media(min-width:768px) {

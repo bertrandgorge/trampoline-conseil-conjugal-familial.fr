@@ -213,6 +213,12 @@ section.retrouvez {
       line-height: 30px;
       color: #faf9f1;
       font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    section.retrouvez .retrouvez-text .retrouvez-text-subheading {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      color: #faf9f1;
+      font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 @media (min-width: 768px) {
   section.retrouvez .retrouvez-text {
@@ -376,10 +382,16 @@ section.about {
       margin-bottom: 0;
       font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     section.about .presentation-text h5 {
-      font-size: 16px;
-      font-weight: 500;
+      font-size: 1.2rem;
+      font-weight: 700;
       margin-bottom: 0;
       margin-top: 21px;
+      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    section.about .presentation-text h6 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0;
+      margin-top: 0;
       font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     section.about .presentation-text p {
       font-size: 16px;
